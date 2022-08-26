@@ -1,17 +1,15 @@
-# Description
+### Description
 
 A sample project to demonstrate image upload to S3 using POST request
 
-# Getting Started
+### Getting Started
 
 Clone the repo:
 
 git clone https://github.com/drashtibpatel/Nestjs-ImageUpload.git
 
-cd Nestjs_image_to_s3/
 
-
-# Install the dependencies:
+### Install the dependencies:
 
 npm install
 
@@ -28,19 +26,19 @@ export default {
 
 
 ### Running the app
-# development
+### development
 npm run start
 
-# watch mode
+### watch mode
 
 npm run start:dev
 
-# production mode
+### production mode
 npm run start:prod
 
 
 ### Test
-# unit tests
+### unit tests
 npm run test
 
 
