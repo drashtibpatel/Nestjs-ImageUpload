@@ -1,19 +1,19 @@
 # Description
 
-A sample project to demonstrate image upload to S3
+A sample project to demonstrate image upload to S3 using POST request
 
 # Getting Started
 
 Clone the repo:
 
-$ git clone http://192.168.2.107/kinjal.n.modi/node-typeorm.git
+git clone https://github.com/drashtibpatel/Nestjs-ImageUpload.git
 
-cd Nestjs-ImageUpload
+cd Nestjs_image_to_s3/
 
 
 # Install the dependencies:
 
-$ npm install
+npm install
 
 
 Set the config variables in config/config.ts file:
@@ -29,11 +29,11 @@ export default {
 
 ### Running the app
 # development
-$ npm run start
+npm run start
 
 # watch mode
 
-$ npm run start:dev
+npm run start:dev
 
 # production mode
 npm run start:prod
@@ -41,4 +41,12 @@ npm run start:prod
 
 ### Test
 # unit tests
-$ npm run test
+npm run test
+
+
+### Postman
+We can test it on Postman by using
+
+POST method
+URL: localhost:3000/fileupload  
+and upload file using 'upload' key in Body section
